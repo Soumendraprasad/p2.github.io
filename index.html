@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To My Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id='header'>
+        <div class="container">
+            <nav>
+                
+             <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                   
+                    
+                </ul>
+                <i class="fas fa-bars"onclick="openmenu()"></i>
+            </nav>
+            
+            <div class="header-text">
+                <p>Data Science Enthusiast</p>
+                <h1>Hi , I am <span> Soumendra </span> <br>India's Youngest <br>Kaggle <span> 2X Master </span></h1>
+            </div>
+           
+        </div>
+    </div>
+    <!----about------------------------------------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/background.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I am Soumendra Prasad , an Undergrad & pursuing data-driven approach to solving problems, 
+                        I frequently does this with my  projects on Kaggle (kaggle/soumendraprasad) .
+                        I always love to do kaggling in my spare times . I am India's second youngest Kaggle 2X master .
+                        I had written 100+ Topics on kaggle . I had some hands on with tabular , image & audio 
+                        datas . I had done projects on sentiment analysis , audio processing & it's classification ,
+                        Image Processing , Image Classificaton , Image Recognition , Time Series Analysis . I am also a 5⭐
+                        Hackerrank coder . I am  I have also knowledge on Business Intelligence Tools .
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('achievements')">Achievements</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>ML / DL</span> <br>Traditional Machine Learning , Hands On Deep Learning Concepts & Frameworks </li>
+                            <li><span>Data Analysis</span> <br>Drawing Insight From Data to make ease in decision making</li>
+                            <li><span>Python</span> <br>Problems Solving in Python</li>
+                            <li><span>Dataset Creator</span> <br>Create Custom Dataset Using Selenium & Beautifulsoup</li>
+                            <li><span>SQL</span> <br>Writing Efficient Queries</li>
+                            <li><span>Time Series Analysis</span> <br>Drawing Insight & forecasting in Time Series</li>
+                            <li><span>Image Processing</span> <br>Image Processing & making efficient models</li>
+                            <li><span>Audio Processing</span> <br> Audio Processing & models using extracted important features</li>
+                            <li><span>Business Intelligence Tools</span> <br>Extracting Insights From Data Using BI tools</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Kaggle Discussion Master</span> <br>Under Top 50 Among 3.5L Kaggglers </li>
+                            <li><span>Kaggle Dataset Master</span> <br>Under Top 50 Among 1L Kaggglers</li>
+                            <li><span>Kaggle Notebook Master</span> <br> Under Top 250 among 2.5L kagglers</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-24</span> <br>Pursuing Undergrad in Trident Academy Of Technology, Bhubaneswar , Odisha</li>
+                            <li><span>2018-20</span> <br>+2 Intermediates In College Basic Science & Humanities , OUAT , Bhubaneswar , Odisha</li>
+
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="achievements">
+                        <ul>
+                            <li><span>Winner At SIT In Ideation Competition</span> <br> Winner For E-Collection Of Waste Ideation</li>
+                            <li><span>Got 2023 Shinning Star Award In TAT</span> <br> Got A Shinning Star Award For Active Participation In 
+                            <li><span>Winner At District Level Debate Competitions </span> <br> Got 1st Prize On District Level
+                            Debate Competiton On Theme <u>Is  India Truly Independent At This Moment !</u></li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----Services------------------------------------------------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Data Analysis </h2>
+                    <p>Drawing Insight From Data to make ease in decision making.Also Extracting Insights From Data Using BI tools </p>
+                    <a href="https://www.kaggle.com/soumendraprasad">Learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>Dataset Creation & it's Processing</h2>
+                    <p>Create Dataset using scripts & after that cleaning it to make production usable .</p>
+                    <a href="https://www.kaggle.com/soumendraprasad/datasets">Learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-app-store"></i>
+                    <h2>Modeling</h2>
+                    <p>Strong , Efficient & Robust Models Related  To Business Requirement .</p>
+                    <a href="https://www.kaggle.com/soumendraprasad/code">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------------------------------------ Portfolio-->
+    <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/music.jfif">
+                        <div class="layer">
+                            <h3>  Instrument's  Sound Classificaton  </h3>
+                                <p>
+                                    Classificaton Of 4 types of different classes of musical instruments By Their Sound.
+                                </p>
+                           <a href="https://github.com/Soumendraprasad/Musical-Instrument-Sound-Classification"> <i class = 'fas fa-external-link-alt'></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/modi.jpg" >
+                        <div class="layer">
+                            <h3>Feeling Indian Political Pulse</h3>
+                                <p>
+                                   Sentiment Analysis Over Tweets Related To Political Leaders EDA &  Insights From 2L+ Tweets.
+                                </p>
+                            <a href="https://github.com/Soumendraprasad/Feeling-Political-Pulse-Of-India"> <i class = 'fas fa-external-link-alt'></i></a>   
+                        </div>
+                        
+                    </div>
+                    <div class="work">
+                        <img src="images/crime.jpg">
+                        <div class="layer">
+                            <h3>Crime Article Recommendation </h3>
+                                <p>
+                                  Recommend 7k+ criminal Articles which have been very similar,
+                                  To Boost Up Justice System .
+                                </p>
+                            <a href="https://github.com/Soumendraprasad/Crime-Article-Recommendation-System"> <i class = 'fas fa-external-link-alt'></i></a>   
+                        </div>
+                        
+                    </div>
+                </div>
+                <a href="https://github.com/Soumendraprasad" class="btn">See More</a>
+            </div>
+        </div>
+
+<!-----------------------Contact---------------------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+            <p><i class = 'fas fa-paper-plane'></i> mohanty.soumendraprasad15@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 9776024833</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/soumendra-prasad-mohanty-9338b9243"> <i class = 'fab fa-linkedin'></i></a>
+                    <a href="https://twitter.com/SoumendraRoman"> <i class = 'fab fa-twitter-square'></i></a>
+                    <a href="https://www.kaggle.com/soumendraprasad"><i class="fa-brands fa-kaggle"></i></a>
+                    <a href="https://github.com/Soumendraprasad/"><i class="fa fa-github"></i></a>
+                </div>
+                <a href="images/my-cv.pdf"class="btn btn-2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name = 'submit-to-google-sheet' action= "https://formspree.io/f/xeqwllov" method="POST">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea  name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit"class="btn btn-2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Soumendra <i class="fas fa-heart"></i> Only  Data Tell Tales</p>
+    </div>
+</div>
+        <script>
+            var tablinks = document.getElementsByClassName('tab-links');
+            var tabcontents = document.getElementsByClassName('tab-contents');
+
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    // tabcontent.clasList.remove('active-tab');
+                    tablink.classList.remove('active-link')
+                }
+                for (tabcontent of tabcontents) {
+                    // tabcontent.clasList.remove('active-tab');
+                    tabcontent.classList.remove('active-tab')
+                }
+                event.currentTarget.classList.add('active-link')
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+        </script>
+<script>
+var sidemenu = document.getElementById("sidemenu")
+
+function openmenu(){
+    sidemenu.style.right='0'
+}
+function closemenu(){
+    sidemenu.style.right= '-200px';
+}
+</script>
+
+</body>
+
+</html>
